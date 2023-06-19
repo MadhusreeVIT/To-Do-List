@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><u>>TODO LIST</u></title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body align="center">
+
+    <h1  style="color: rgb(34, 34, 30);"><u>TODO LIST</u></h1><br><br>
+    <form name="myForm" >
+<b style="color: blueviolet;font-size: 15px;">Title of the task :</b><textarea rows = "2" cols = "60" id="description" placeholder="Description..."></textarea>   
+        <br><br>
+        <b style="color:blueviolet;font-size: 15px;">Description of the task :</b><textarea rows = "2" cols = "60" id="description" placeholder="Description..."></textarea><br><br>
+       
+        <div id="blank"></div>
+        <br>
+        <button type="button" id="btn" onclick="addd()" ><b>add task</b></button><br><br><br>
+    </form>
+        <div id="addedtasks">
+            <div id="${c}" class="tasks" >
+                <div id="des" ><b>Completed Task</b></div><br>
+                <div><b>Status Of the Task</b></div><br>
+                <b>Deleted Task</b>
+            </div>
+        </div>
+</body>
+<script src="todo.js"></script>
+</html>
