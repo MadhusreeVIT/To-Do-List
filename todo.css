@@ -1,1 +1,57 @@
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    background-color: bisque;
+}
+#addedtasks{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(51, 48, 48);
+    border-radius: 15px;
+    color: white;
+}
+.tasks{}
+    display: grid;
+    word-break: keep-all;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+#btn{
+    color: white;
+    background-color: brown;
+    
+}
+button{
+    border-radius: 25px;
+    width:130px; 
+    height:40px;
+}
+form{
+    font-family: monospace;
+    margin:20px;
+   
 
+}
+input{
+    height: 25px;
+}
+#blank{
+     color: white;
+}
+b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
